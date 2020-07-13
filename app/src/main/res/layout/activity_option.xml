@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Option">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Select Practice Test/Final Test:"
+        android:textSize="20dp"
+        android:textColor="#000080"
+        />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="243dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="97dp"
+        android:background="#6a5acd"
+        android:text="Practice Test" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="238dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/b1"
+        android:layout_marginTop="218dp"
+        android:background="#6a5acd"
+        android:text="Final Test" />
+
+
+
+</RelativeLayout>

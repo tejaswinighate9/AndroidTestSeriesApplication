@@ -1,0 +1,95 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnLog">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF4081"
+        android:text="Welcome To Test Series"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="149dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tv"
+        android:layout_marginTop="102dp"
+        android:background="#303F9F"
+        android:text="C"
+        android:textColor="#FF4081" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="152dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/b1"
+        android:layout_marginTop="194dp"
+        android:background="#303F9F"
+        android:textColor="#FF4081"
+        android:text="C++" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="61dp"
+        android:background="#FF4081"
+        android:text="LOGOUT" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="132dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/b1"
+        android:layout_marginEnd="20dp"
+        android:background="#303F9F"
+        android:textColor="#FF4081"
+        android:text="JAVA" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="129dp"
+        android:layout_height="67dp"
+        android:layout_alignStart="@+id/b4"
+        android:layout_alignTop="@+id/b2"
+        android:background="#303F9F"
+        android:text="PYTHON"
+        android:textColor="#FF4081" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/b1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="189dp"
+        android:background="#303F9F"
+        android:text="ANDROID"
+        android:textColor="#FF4081" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="131dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/b4"
+        android:layout_alignTop="@+id/b3"
+        android:background="#303F9F"
+        android:text="SQL"
+        android:textColor="#FF4081" />
+
+
+</RelativeLayout>
